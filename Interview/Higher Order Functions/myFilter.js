@@ -4,11 +4,11 @@ function checkOdd(num){
 }
 
 
-function myFilter(arr , test){
+Array.prototype.myFilter = function(test){
     let newArr = []
-    for(let i = 0 ; i < arr.length ; i++){
-        if(test(arr[i]) == true){
-            newArr.push(arr[i])
+    for(let i = 0 ; i < this.length ; i++){
+        if(test(this[i]) == true){
+            newArr.push(this[i])
         }
     }
     return newArr
