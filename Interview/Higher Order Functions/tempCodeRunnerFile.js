@@ -1,1 +1,1 @@
-let newObj = {...elem}
+ By christropher nolan -> " , averageRating)

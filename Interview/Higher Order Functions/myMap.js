@@ -26,3 +26,5 @@ let newArray = array.myMap(squarer)
 console.log(newArray)
 let cubeArray = array.myMap(cuber)
 console.log(cubeArray)
+
+
