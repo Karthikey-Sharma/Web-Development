@@ -1,3 +1,6 @@
-(function (){
-    console.log("board is immediately drawn")
-})();
+console.log('Before calling outer')
+let arr = outer()
+arr[0]()
+arr[1]()
+arr[2]()
+console.log('After calling outer')
