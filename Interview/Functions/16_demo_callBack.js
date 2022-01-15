@@ -23,6 +23,9 @@ function primeSieve(phandler , nphandler){
             nphandler(num)
         }
     }
+    // return this for chaining
+    return this
+
 }
 
 Array.prototype.sieve = primeSieve
